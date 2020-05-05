@@ -1,0 +1,15 @@
+plugins {
+    // Apply the application plugin to add support for building a CLI application.
+    id 'java-library'
+}
+
+clover {
+    java {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    compiler{
+        additionalArgs = "-g:lines,source,vars"
+    }
+}

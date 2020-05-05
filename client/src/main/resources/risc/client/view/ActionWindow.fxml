@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <TabPane layoutX="7.0" layoutY="6.0" prefHeight="400.0" prefWidth="600.0"
+             style="-fx-background-color: #34495e#34495e;" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0"
+             AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Tab text="Move">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                <ScrollPane fx:id="movePane" layoutX="109.0" layoutY="73.0" prefHeight="320.0" prefWidth="600.0"
+                            AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                            AnchorPane.topAnchor="0.0"/>
+                <JFXButton fx:id="moveButton" buttonType="RAISED" layoutX="441.0" layoutY="327.0"
+                           mnemonicParsing="false" onAction="#moveAction" style="-fx-background-color: #2980b9#2980b9;"
+                           text="Choose Target"/>
+                <Label layoutX="69.0" layoutY="332.0" text="Source: " textFill="WHITE"/>
+                <Label fx:id="moveSourceName" layoutX="130.0" layoutY="332.0" textFill="WHITE"/>
+            </AnchorPane>
+        </Tab>
+        <Tab fx:id="attackTab" text="Attack">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                <ScrollPane fx:id="attackPane" layoutX="109.0" layoutY="73.0" prefHeight="320.0" prefWidth="600.0"
+                            AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                            AnchorPane.topAnchor="0.0"/>
+                <JFXButton fx:id="attackButton" buttonType="RAISED" layoutX="441.0" layoutY="327.0"
+                           mnemonicParsing="false" onAction="#attackAction"
+                           style="-fx-background-color: #2980b9#2980b9;" text="Choose Target"/>
+                <Label layoutX="69.0" layoutY="332.0" text="Source: " textFill="WHITE"/>
+                <Label fx:id="attackSourceName" layoutX="164.0" layoutY="331.0" textFill="WHITE"/>
+            </AnchorPane>
+        </Tab>
+        <Tab fx:id="upgradeTab" text="Upgrade">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                <ScrollPane fx:id="upgradePane" prefHeight="320.0" prefWidth="600.0"/>
+                <Label fx:id="upgradeUnitName" layoutX="188.0" layoutY="328.0" prefHeight="20.0" prefWidth="4.0"
+                       textFill="WHITE"/>
+                <Label layoutX="69.0" layoutY="332.0" text="Unit to Upgrade: " textFill="WHITE"/>
+                <JFXButton fx:id="upgradeButton" buttonType="RAISED" layoutX="441.0" layoutY="327.0"
+                           mnemonicParsing="false" onAction="#upgradeAction"
+                           style="-fx-background-color: #2980b9#2980b9;" text="Let's Upgrade Them"/>
+            </AnchorPane>
+        </Tab>
+    </TabPane>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXScrollPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<AnchorPane fx:id="outerPane" prefHeight="497.0" prefWidth="287.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <JFXButton layoutX="4.0" layoutY="464.0" mnemonicParsing="false" onAction="#buttonClickAction" prefHeight="30.0"
+               prefWidth="280.0" text="Perform Action"/>
+    <JFXScrollPane fx:id="infoPane" prefHeight="461.0" prefWidth="287.0"
+                   style="-fx-background-image: url(&quot;@assets/army.png&quot;);" AnchorPane.bottomAnchor="36.0"
+                   AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+</AnchorPane>

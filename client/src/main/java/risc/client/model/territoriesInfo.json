@@ -1,0 +1,39 @@
+[
+  {
+    "id": 0,
+    "centerX": 145.0,
+    "centerY": 139.0,
+    "radius": 33.0
+  },
+  {
+    "id": 1,
+    "centerX": 218.0,
+    "centerY": 264.0,
+    "radius": 33.0
+  },
+  {
+    "id": 2,
+    "centerX": 199.0,
+    "centerY": 432.0,
+    "radius": 33.0
+  },
+  {
+    "id": 3,
+    "centerX": 742.0,
+    "centerY": 139.0,
+    "radius": 33.0
+  },
+  {
+    "id": 4,
+    "centerX": 887.0,
+    "centerY": 276.0,
+    "radius": 33.0
+  },
+  {
+    "id": 5,
+    "centerX": 808.0,
+    "centerY": 444.0,
+    "radius": 33.0
+  }
+]
+

@@ -1,0 +1,6 @@
+package risc.interfaces.game;
+
+public class Main {
+  Game myGame=new Game(3);
+  System.out.println("succeed");
+}

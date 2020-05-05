@@ -1,0 +1,17 @@
+Task: Finished drawing UML design 
+Meeting Date: 2020/3/5
+
+Task: Finished the "model" part of the client and server
+Meeting Date: 2020/3/9
+
+Task: Add communication between client and server
+Meeting Date: 2020/3/11
+
+Task: Add Move Action to the game 
+Meeting Date: 2020/3/13
+
+Task: Add Attack Action to the game
+Meeting Date: 2020/3/16
+
+Task: Complete the whole game
+Meeting Date: 2020/3/22

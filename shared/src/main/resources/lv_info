@@ -1,0 +1,46 @@
+{
+  "level": [
+    {
+      "id": 0,
+      "str": "Level 0",
+      "upgrade": 0,
+      "Attack" : 0
+    },
+    {
+      "id": 1,
+      "str": "Level 1",
+      "upgrade": 3,
+      "Attack" : 1
+    },
+    {
+      "id": 2,
+      "str": "Level 2",
+      "upgrade": 11,
+      "Attack" : 3
+    },
+    {
+      "id": 3,
+      "str": "Level 3",
+      "upgrade": 30,
+      "Attack" : 5
+    },
+    {
+      "id": 4,
+      "str": "Level 4",
+      "upgrade": 55,
+      "Attack" : 8
+    },
+    {
+      "id": 5,
+      "str": "Level 5",
+      "upgrade": 90,
+      "Attack" : 11
+    },
+    {
+      "id": 6,
+      "str": "Level 6",
+      "upgrade": 150,
+      "Attack" : 15
+    }
+  ]
+}
