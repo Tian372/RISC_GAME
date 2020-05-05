@@ -1,4 +1,4 @@
-# Team3_RISC_GAME
+RISC_GAME
 This game is a turn-based strategy game by which 2 to 5 players can play.
 
 Version 1:
